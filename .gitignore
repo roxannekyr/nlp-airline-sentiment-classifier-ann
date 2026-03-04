@@ -1,0 +1,33 @@
+# --- Virtual Environments ---
+# This ignores the folder containing all your installed libraries (pandas, nltk, etc.)
+.venv/
+../venv/
+
+# --- Python Artifacts ---
+# Compiled python files and cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Jupyter Notebooks ---
+# Hidden autosave and checkpoint files
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# --- NLTK Data ---
+# Ignores the large text corpora you download via nltk.download()
+nltk_data/
+
+# --- Project Specifics ---
+# Local settings and environment variables
+.env
+local_settings.py
+
+# IDE Settings (PyCharm)
+.idea/
+
+# OS Files
+.DS_Store
+
+#Jupyter lab connection
+jupyter_lab
