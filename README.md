@@ -113,5 +113,3 @@ Both the baseline and tuned models show healthy initial convergence. Train and v
 **Twitter US Airline Sentiment** — Crowdflower (via Kaggle)  
 ~14,640 tweets · 6 US carriers · 3 sentiment classes  
 [View on Kaggle](https://www.kaggle.com/datasets/crowdflower/twitter-airline-sentiment)
-
-*Feel free to reach out or open an issue for questions, feedback, or collaboration opportunities.*
