@@ -104,5 +104,5 @@ Both the baseline and tuned models show healthy initial convergence. Train and v
 1. **Class imbalance must be addressed explicitly.** The ~60/20/20 split causes a naive model to over-predict negative. Weighted loss and stratified splits were essential.
 2. **TF-IDF has a ceiling on sentiment tasks.** The plateau in validation loss (while training loss keeps falling) signals the feature space isn't expressive enough to capture subtle sentiment shifts. Dense embeddings (Word2Vec, FastText, or fine-tuned transformers) would be the natural next step.
 3. **Two-stage HPO is efficient.** Random search identifies promising regions cheaply; grid search then refines. Running full grid search from the start would have been computationally prohibitive given the parameter space.
-4. **Neutral is the hard class in sentiment analysis** — a consistent finding in the literature and confirmed here. It is effectively the boundary region of the sentiment spectrum. 
+4. **Neutral is the hard class in sentiment analysis** - a consistent finding in the literature and confirmed here. It is effectively the boundary region of the sentiment spectrum. 
 
