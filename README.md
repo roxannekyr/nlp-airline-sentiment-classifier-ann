@@ -1,4 +1,4 @@
-# NLP Airline Sentiment Classifier with ANN
+# NLP Airline Sentiment Classifier
 
 **Multi-class tweet sentiment analysis using a PyTorch ANN with TF-IDF vectorization, advanced text preprocessing, and a two-stage hyperparameter optimization pipeline.**
 
