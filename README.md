@@ -89,9 +89,9 @@ Both the baseline and tuned models show healthy initial convergence. Train and v
 
 | Class | Precision | Recall | F1-Score | Support |
 |-------|-----------|--------|----------|---------|
-| Negative | — | — | **0.83** | 911 |
-| Neutral | — | — | **0.50** | 292 |
-| Positive | — | — | **0.56** | 216 |
+| Negative | 0.89 | 0.78 | **0.83** | 911 |
+| Neutral | 0.44 | 0.57 | **0.50** | 292 |
+| Positive | 0.53 | 0.60 | **0.56** | 216 |
 
 **Key observations:**
 - **Negative** class performs strongest (F1: 0.83) — dominant class with unambiguous, distinctive vocabulary
