@@ -25,9 +25,9 @@ The core model is a multi-layer feed-forward Artificial Neural Network (ANN) tra
 ### 3. Vectorization
 | Method | Library | Notes |
 |--------|---------|-------|
-| TF-IDF | `scikit-learn` | Primary; sparse → dense |
+| TF-IDF | `scikit-learn` | Primary, sparse converted to dense |
 | Word2Vec | `Gensim` | Mean-pooled sentence vectors |
-| FastText | `Gensim` | Mean-pooled; handles OOV |
+| FastText | `Gensim` | Mean-pooled sentence vectors, handles OOV |
 
 ### 4. ANN Architecture (PyTorch)
 
@@ -86,8 +86,6 @@ Both the baseline and tuned models show healthy initial convergence. Train and v
 - **Negative** class performs strongest (F1: 0.83) — dominant class with unambiguous, distinctive vocabulary
 - **Neutral** class is the hardest (F1: 0.50) — shares lexical overlap with both other classes, challenging for bag-of-words approaches
 - **Positive** class suffers from neutral/positive boundary confusion (55 positives misclassified as neutral)
-
----
 
 ## Tech Stack
 
