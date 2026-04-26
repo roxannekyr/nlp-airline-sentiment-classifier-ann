@@ -8,15 +8,6 @@ This project builds an end-to-end NLP pipeline to classify Twitter airline senti
 
 The core model is a multi-layer feed-forward Artificial Neural Network (ANN) trained on TF-IDF features, enhanced with class imbalance handling, early stopping, learning rate scheduling, and a systematic two-stage hyperparameter search.
 
-## Repository Structure
-
-├── data/
-│   └── Tweets.csv
-├── nlp_airline_sentiment_classifier.ipynb
-├── training_validation_losses.pdf
-├── tuned_training_validation_losses.pdf
-└── README.md
-
 ## Methodology
 
 ### 1. Data Preprocessing & EDA
